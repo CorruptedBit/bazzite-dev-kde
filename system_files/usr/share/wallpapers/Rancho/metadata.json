@@ -1,0 +1,9 @@
+{
+  "KPackageStructure": "Wallpaper",
+  "KPlugin": {
+    "Id": "rancho",
+    "Name": "Rancho",
+    "Description": "Rancho Cucamonga",
+    "License": "CC-BY-SA"
+  }
+}

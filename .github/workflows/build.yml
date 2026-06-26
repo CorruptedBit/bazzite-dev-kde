@@ -4,13 +4,16 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    - cron: "05 10 * * *" # 10:05am UTC everyday
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "**/README.md"
+  # Disabled: building locally and pushing manually instead (see README),
+  # to avoid disk-space failures on the GitHub-hosted runner during rechunk.
+  # Uncomment to resume automatic builds on push and on a daily schedule.
+  # schedule:
+  #   - cron: "05 10 * * *" # 10:05am UTC everyday
+  # push:
+  #   branches:
+  #     - main
+  #   paths-ignore:
+  #     - "**/README.md"
   workflow_dispatch:
 
 env:

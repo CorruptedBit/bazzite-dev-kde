@@ -20,4 +20,4 @@ enable-starship:
 [group('Utilities')]
 install-utilities:
     brew install chezmoi yt-dlp htop cmatrix
-    flatpak install -y flathub it.mijorus.gearlever com.bitwarden.desktop
+    flatpak install -y flathub com.bitwarden.desktop

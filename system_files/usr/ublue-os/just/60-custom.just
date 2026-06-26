@@ -2,7 +2,7 @@
 [group('Dev Tools')]
 install-dev-tools:
     brew install --cask claude-code
-    brew install starship git-graph
+    brew install starship git-graph zellij
 
 # Enable starship in bash
 [group('Dev Tools')]

@@ -1,6 +1,6 @@
 # bazzite-dev-kde
 
-A personal [bootc](https://github.com/bootc-dev/bootc) image based on [Bazzite](https://github.com/ublue-os/bazzite-deck:stable) (KDE Plasma spin), customized with development tooling on top of the stock gaming image.
+A personal [bootc](https://github.com/bootc-dev/bootc) image based on [Bazzite](https://github.com/ublue-os/bazzite) (KDE Plasma spin), customized with development tooling on top of the stock gaming image.
 
 Published at: `ghcr.io/corruptedbit/bazzite-dev-kde`
 

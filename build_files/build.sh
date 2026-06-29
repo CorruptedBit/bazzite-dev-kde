@@ -38,6 +38,9 @@ dnf5 config-manager setopt terra.enabled=0
 dnf5 config-manager setopt terra-mesa.enabled=0
 rm -f /etc/yum.repos.d/terra*.repo
 
+## Alacritty
+dnf5 install -y alacritty
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging

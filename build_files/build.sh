@@ -41,9 +41,6 @@ rm -f /etc/yum.repos.d/terra*.repo
 ## Alacritty
 dnf5 install -y alacritty
 
-## Kvantum (Qt theme engine) + qt5ct/qt6ct (Qt platform theme config, useful for Flatpak apps)
-dnf5 install -y kvantum qt5ct qt6ct
-
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging

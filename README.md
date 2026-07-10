@@ -10,7 +10,6 @@ On top of the Bazzite KDE base, this image adds:
 
 - **Visual Studio Code** (from Microsoft's official repo)
 - **Zed** editor (via the [Terra](https://terra.fyi/) repo, enabled only during the build)
-- **Kvantum**, **qt5ct**, **qt6ct** — Qt theme engine + platform theme config, so Qt/Flatpak apps outside the Plasma ecosystem can pick up a consistent theme
 - **Custom Nerd Fonts**: [CascadiaCode](https://github.com/microsoft/cascadia-code) and FantasqueSansMono, copied into `/usr/share/fonts` and registered with `fc-cache`
 - Custom `ujust` recipes (`system_files/usr/ublue-os/just/60-custom.just`):
   - `ujust install-dev-tools` — Claude Code, starship, git-graph, zellij (via Homebrew)

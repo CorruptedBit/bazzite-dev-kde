@@ -41,12 +41,9 @@ rm -f /etc/yum.repos.d/terra*.repo
 ## Alacritty
 dnf5 install -y alacritty
 
-# Use a COPR Example:
-#
-# dnf5 -y copr enable ublue-os/staging
-# dnf5 -y install package
-# Disable COPRs so they don't end up enabled on the final image:
-# dnf5 -y copr disable ublue-os/staging
+# Remove Software
+
+dnf5 remove -y waydroid
 
 #### Example for enabling a System Unit File
 
